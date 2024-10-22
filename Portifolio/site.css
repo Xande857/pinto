@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inria Sans", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    text-align: right;
+    padding: 20px;
+    background-color: #1e1e2f;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover{
+    color: #5ca2d6;
+}
+.redes svg{
+    height: 50px;
+    width: 50px;
+}
